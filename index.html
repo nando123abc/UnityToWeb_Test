@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | UnityToWeb_Test</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #BF9400"></canvas>
+    <canvas id="unity-canvas" style="width: 100%; height: 100%; background: url('Build/UnityToWeb_Test.jpg') center / cover"></canvas>
     <script src="Build/UnityToWeb_Test.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -22,9 +22,9 @@
         frameworkUrl: "Build/UnityToWeb_Test.framework.js",
         codeUrl: "Build/UnityToWeb_Test.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "worp",
         productName: "UnityToWeb_Test",
-        productVersion: "0.1.0",
+        productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
